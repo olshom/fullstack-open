@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlVzZXIyIiwiaWQiOiI2MjdhNDAyYWE2OTMwMjMxNTdmOTAwZGEiLCJpYXQiOjE2NTIxODY4MjR9.Sip1riJYBmkvPCM8uWHgr9u7nuidgr4Nd6zzvu3hGzc
+
+{
+  "title": "Test w token 82",
+  "author": "Author w token 2",
+  "url": "tUrl",
+  "likes": 4
+}
